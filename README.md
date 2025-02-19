@@ -26,7 +26,7 @@ https://quiz-mania-ruby.vercel.app/
 1. Clone the repository:
 
    
-   git clone https://github.com/yourusername/quiz-app.git
+   git clone https://github.com/Shahbaz079/Quiz-Mania.git
 
 
 2. Navigate to the project directory:
