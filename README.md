@@ -18,6 +18,9 @@ This is a Next.js application for taking quizzes with multiple-choice questions.
 - MongoDB
 - Clerk account
 
+### Deployment
+https://quiz-mania-ruby.vercel.app/
+
 ### Installation
 
 1. Clone the repository:
