@@ -15,6 +15,8 @@ This is a Next.js application for taking quizzes with multiple-choice questions.
 ### Prerequisites
 
 - Node.js
+- NextJs
+- TypeScript
 - MongoDB
 - Clerk account
 
