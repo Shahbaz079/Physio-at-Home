@@ -22,8 +22,7 @@ export async function POST(request:NextRequest){
 
   const body = await request.json();
   const { type, data } = body;
-  console.log('Received type:', type);
-  console.log('Received data:', data);
+
   if (type === 'user.created'){
 try { 
     
