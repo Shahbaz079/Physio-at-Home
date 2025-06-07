@@ -15,15 +15,20 @@ This is a Next.js application for taking quizzes with multiple-choice questions.
 ### Prerequisites
 
 - Node.js
+- NextJs
+- TypeScript
 - MongoDB
 - Clerk account
+
+### Deployment
+https://quiz-mania-ruby.vercel.app/
 
 ### Installation
 
 1. Clone the repository:
 
    
-   git clone https://github.com/yourusername/quiz-app.git
+   git clone https://github.com/Shahbaz079/Quiz-Mania.git
 
 
 2. Navigate to the project directory:
