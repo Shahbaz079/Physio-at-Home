@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import { PhoneCall, MessageCircle } from 'lucide-react';
 import Image from 'next/image';
 import logo from "@/uploads/logo.jpeg"
+import Pic1 from "@/public/pic1.jpeg"
+import Pic2 from "@/public/pic2.jpeg";
 
 const Page = () => {
   return (
@@ -76,19 +78,42 @@ const Page = () => {
       >
         <h2 className="text-3xl font-bold text-center mb-8 text-white">Session Highlights</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {[
-            'https://images.unsplash.com/photo-1609113160023-4e31f3765fd7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            'https://images.unsplash.com/photo-1699523229208-be1e1dd9252d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            'https://images.unsplash.com/photo-1692372372810-c848c9cca1c5?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-          ].map((src, i) => (
-            <motion.img
-              key={i}
-              src={src}
-              alt={`Session ${i + 1}`}
+          
+            <Image
+            alt='Session Image'
+            
+              src={Pic1}
+             
               className="rounded-xl shadow-md hover:scale-105 transition-transform"
-              whileHover={{ scale: 1.05 }}
+             
             />
-          ))}
+             <Image
+            alt='Session Image'
+            
+              src={Pic2}
+             
+              className="rounded-xl shadow-md hover:scale-105 transition-transform"
+             
+            />
+             <Image
+            alt='Session Image'
+            
+              src={Pic1}
+             
+              className="rounded-xl shadow-md hover:scale-105 transition-transform"
+             
+            />
+            <Image
+            alt='Session Image'
+            
+              src="https://images.unsplash.com/photo-1699523229208-be1e1dd9252d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+             width={500}
+             height={500}
+              className="rounded-xl shadow-md hover:scale-105 transition-transform"
+             
+            />
+           
+          
         </div>
       </motion.div>
 
